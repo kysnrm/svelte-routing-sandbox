@@ -17,8 +17,12 @@
     <Link to="blog/3">Blog 3</Link>
   </nav>
   <div>
-    <Route path="/" component={Home} />
-    <Route path="about" component={About} />
+    <Route path="/">
+      <Home />
+    </Route>
+    <Route path="about">
+      <About />
+    </Route>
     <Route path="blog/:id" let:params>
       <BlogPost id={params.id} />
     </Route>
