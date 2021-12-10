@@ -15,6 +15,7 @@
     <Link to="blog/1">Blog 1</Link>
     <Link to="blog/2">Blog 2</Link>
     <Link to="blog/3">Blog 3</Link>
+    <Link to="blog/4?foo=bar">Blog with hash</Link>
   </nav>
   <div>
     <Route path="/">
